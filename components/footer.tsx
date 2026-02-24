@@ -6,7 +6,7 @@ export function Footer() {
           SPOTICLAW
         </span>
         <p className="text-sm text-muted-foreground">
-          {"© 2026 SpotiClaw. All rights reserved."}
+          ©SpotiClaw. {new Date().getFullYear()} All rights reserved.
         </p>
       </div>
     </footer>
