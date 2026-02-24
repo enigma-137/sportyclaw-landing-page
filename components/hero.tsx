@@ -146,7 +146,7 @@ export function Hero() {
 
         <div ref={ctaRef} className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center md:mt-12">
           <a
-            href="https://t.me/spoticlaw_bot"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative w-full overflow-hidden bg-primary px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground transition-all hover:shadow-[0_0_30px_oklch(0.65_0.19_145_/_0.3)] sm:w-auto"
@@ -155,7 +155,7 @@ export function Hero() {
             <span className="absolute inset-0 -translate-x-full bg-accent transition-transform duration-300 group-hover:translate-x-0" />
           </a>
           <a
-            href="https://t.me/spoticlaw_community"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full border border-border px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-foreground transition-all hover:border-accent/50 hover:shadow-[0_0_20px_oklch(0.65_0.19_145_/_0.1)] sm:w-auto"
