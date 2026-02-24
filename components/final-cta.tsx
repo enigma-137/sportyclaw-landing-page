@@ -51,7 +51,7 @@ export function FinalCta() {
       {/* Mouse spotlight */}
       <div
         ref={spotlightRef}
-        className="pointer-events-none absolute z-0 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity duration-700 md:opacity-100"
+        className="pointer-events-none absolute z-0 h-175 w-175 -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity duration-700 md:opacity-100"
         style={{
           background: "radial-gradient(circle, oklch(0.65 0.19 145 / 0.1) 0%, oklch(0.65 0.19 145 / 0.04) 25%, transparent 55%)",
         }}
@@ -119,19 +119,20 @@ export function FinalCta() {
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
-            href="https://t.me/spoticlaw_bot"
+            href="$"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative w-full overflow-hidden bg-primary px-10 py-5 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground transition-all hover:shadow-[0_0_40px_oklch(0.65_0.19_145_/_0.4)] sm:w-auto"
+            className="group relative w-full overflow-hidden bg-primary px-10 py-5 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground transition-all hover:shadow-[0_0_40px_oklch(0.65_0.19_145/0.4)] sm:w-auto"
           >
             <span className="relative z-10">Join Bot Now</span>
             <span className="absolute inset-0 -translate-x-full bg-accent transition-transform duration-300 group-hover:translate-x-0" />
           </a>
           <a
-            href="https://t.me/spoticlaw_community"
+            href="#"
             target="_blank"
+            
             rel="noopener noreferrer"
-            className="w-full border border-border px-10 py-5 text-center text-sm font-bold uppercase tracking-wider text-foreground transition-all hover:border-accent/50 hover:shadow-[0_0_20px_oklch(0.65_0.19_145_/_0.15)] sm:w-auto"
+            className="w-full border border-border px-10 py-5 text-center text-sm font-bold uppercase tracking-wider text-foreground transition-all hover:border-accent/50 hover:shadow-[0_0_20px_oklch(0.65_0.19_145/0.15)] sm:w-auto"
           >
             Join Community
           </a>
