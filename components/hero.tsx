@@ -45,20 +45,19 @@ export function Hero() {
       onMouseMove={handleMouseMove}
       className="relative flex min-h-screen items-center justify-center overflow-hidden px-6"
     >
-      {/* Mouse-following spotlight */}
+
       <div
         ref={spotlightRef}
-        className="pointer-events-none absolute z-0 h-[800px] w-[800px] -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity duration-700 md:opacity-100"
+        className="pointer-events-none absolute z-0 h-200 w-200 -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity duration-700 md:opacity-100"
         style={{
           background: "radial-gradient(circle, oklch(0.65 0.19 145 / 0.08) 0%, oklch(0.65 0.19 145 / 0.03) 25%, transparent 55%)",
         }}
         aria-hidden="true"
       />
 
-      {/* Ambient floating glow orbs */}
       <GlowOrbs count={4} maxSize={500} minSize={250} />
 
-      {/* Static light beams */}
+  
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <div
           className="absolute left-1/2 top-0 h-full w-px"
@@ -80,7 +79,6 @@ export function Hero() {
         />
       </div>
 
-      {/* Claw scratch lines - parallax on mouse */}
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
         <div
           className="absolute -right-20 top-1/4 h-96 w-px rotate-12 bg-border/40 transition-transform duration-700 ease-out"
@@ -108,7 +106,7 @@ export function Hero() {
         />
       </div>
 
-      {/* Main content with mouse parallax */}
+     
       <div
         className="relative z-10 mx-auto max-w-4xl text-center transition-transform duration-300 ease-out"
         style={{
@@ -124,7 +122,7 @@ export function Hero() {
             <br />
             <span className="relative inline-block">
               Win Smarter.
-              {/* Accent glow under text */}
+        
               <span
                 className="absolute -bottom-2 left-0 h-1 w-full"
                 style={{
@@ -149,7 +147,7 @@ export function Hero() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative w-full overflow-hidden bg-primary px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground transition-all hover:shadow-[0_0_30px_oklch(0.65_0.19_145_/_0.3)] sm:w-auto"
+            className="group relative w-full overflow-hidden bg-primary px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground transition-all over:shadow-[0_0_30px_oklch(0.65_0.19_145/0.3)] sm:w-auto"
           >
             <span className="relative z-10">Join Telegram Bot</span>
             <span className="absolute inset-0 -translate-x-full bg-accent transition-transform duration-300 group-hover:translate-x-0" />
@@ -158,14 +156,13 @@ export function Hero() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full border border-border px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-foreground transition-all hover:border-accent/50 hover:shadow-[0_0_20px_oklch(0.65_0.19_145_/_0.1)] sm:w-auto"
+            className="w-full border border-border px-8 py-4 text-center text-sm font-bold uppercase tracking-wider text-foreground transition-all hover:border-accent/50 hover:shadow-[0_0_20px_oklch(0.65_0.19_145/0.1)] sm:w-auto"
           >
             Join Community
           </a>
         </div>
       </div>
 
-      {/* Claw-mark divider at bottom */}
       <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-2" aria-hidden="true">
         <div className="h-16 w-px skew-x-[-8deg] bg-border/60" />
         <div className="h-20 w-px bg-accent/40" />
