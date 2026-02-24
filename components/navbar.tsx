@@ -22,7 +22,7 @@ export function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-background/80 backdrop-blur-xl border-b border-border shadow-[0_1px_20px_oklch(0_0_0_/_0.3)]"
+          ? "bg-background/80 backdrop-blur-xl border-b border-border shadow-[0_1px_20px_oklch(0_0_0/0.3)]"
           : "bg-transparent"
       }`}
     >
@@ -42,10 +42,10 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://t.me/spoticlaw_bot"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative overflow-hidden bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[0_0_20px_oklch(0.65_0.19_145_/_0.3)]"
+            className="group relative overflow-hidden bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[0_0_20px_oklch(0.65_0.19_145/0.3)]"
           >
             <span className="relative z-10">Join Bot</span>
             <span className="absolute inset-0 -translate-x-full bg-accent transition-transform duration-300 group-hover:translate-x-0" />
@@ -92,7 +92,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://t.me/spoticlaw_bot"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 bg-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground"
