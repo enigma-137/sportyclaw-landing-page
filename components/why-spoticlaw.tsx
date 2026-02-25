@@ -25,7 +25,7 @@ const propositions = [
   },
 ]
 
-export function WhySpotiClaw() {
+export function WhySportyClaw() {
   const sectionRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<(HTMLDivElement | null)[]>([])
 
@@ -75,7 +75,7 @@ export function WhySpotiClaw() {
     <section id="why-spoticlaw" ref={sectionRef} className="relative px-6 py-24 md:py-32">
       <div className="mx-auto max-w-6xl">
         <h2 className="font-mono text-3xl font-bold uppercase tracking-tight text-foreground md:text-5xl">
-          Why SpotiClaw
+          Why SportyClaw
         </h2>
 
         <div className="mt-4 flex gap-1.5" aria-hidden="true">
