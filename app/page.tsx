@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { HowItWorks } from "@/components/how-it-works"
-import { WhySpotiClaw } from "@/components/why-spoticlaw"
+import { WhySportyClaw } from "@/components/why-sportyclaw"
 import { TelegramSection } from "@/components/telegram-section"
 import { Testimonials } from "@/components/testimonials"
 import { Performance } from "@/components/performance"
@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
-      <WhySpotiClaw />
+      <WhySportyClaw />
       <TelegramSection />
       <Testimonials />
       <Performance />
