@@ -7,7 +7,7 @@ const steps = [
     number: "01",
     title: "Join the Bot",
     description:
-      "Start a conversation with SpotiClaw on Telegram. One tap and you are in.",
+      "Start a conversation with SportyClaw on Telegram. One tap and you are in.",
   },
   {
     number: "02",
