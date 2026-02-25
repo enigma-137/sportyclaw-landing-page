@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'SpotiClaw — AI-Powered Sports Predictions',
+  title: 'SportyClaw — AI-Powered Sports Predictions',
   description: 'Data-driven sports predictions delivered instantly via Telegram. Join the sharpest prediction community in the game.',
   icons: {
     icon: [
