@@ -3,7 +3,7 @@
 const testimonials = [
   {
     username: "@betking247",
-    text: "SpotiClaw called 3 upsets last week that nobody saw coming. This bot is built different.",
+    text: "SportyClaw called 3 upsets last week that nobody saw coming. This bot is built different.",
   },
   {
     username: "@sportsalpha",
@@ -19,11 +19,11 @@ const testimonials = [
   },
   {
     username: "@clutchbet99",
-    text: "No hype, just results. SpotiClaw backs everything up with data and full history.",
+    text: "No hype, just results. SportyClaw backs everything up with data and full history.",
   },
   {
     username: "@livebetpro",
-    text: "I ditched three other tipsters after my first week with SpotiClaw. Night and day difference.",
+    text: "I ditched three other tipsters after my first week with SportyClaw. Night and day difference.",
   },
   {
     username: "@winnersonly_fc",
@@ -74,7 +74,7 @@ export function Testimonials() {
           {doubled.map((testimonial, i) => (
             <div
               key={`${testimonial.username}-${i}`}
-              className="group w-80 shrink-0 border border-border bg-card/70 backdrop-blur-sm p-6 transition-all duration-300 hover:border-accent/30 hover:shadow-[0_0_20px_oklch(0.65_0.19_145_/_0.08)]"
+              className="group w-80 shrink-0 border border-border bg-card/70 backdrop-blur-sm p-6 transition-all duration-300 hover:shadow-[0_0_20px_oklch(0.65_0.19_145/0.08)]"
             >
               <p className="font-mono text-sm font-semibold text-accent transition-colors duration-300 group-hover:text-accent">
                 {testimonial.username}
