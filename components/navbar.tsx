@@ -42,12 +42,12 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="#"
+            href="https://t.me/+olobU_gDicQ5MGU0"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[0_0_20px_oklch(0.65_0.19_145/0.3)]"
           >
-            <span className="relative z-10">Join Bot</span>
+            <span className="relative z-10">Join Bot Community</span>
             <span className="absolute inset-0 -translate-x-full bg-accent transition-transform duration-300 group-hover:translate-x-0" />
           </a>
         </div>
@@ -92,12 +92,12 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="#"
+            href="https://t.me/+olobU_gDicQ5MGU0"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 bg-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground"
           >
-            Join Bot
+            Join Bot Community
           </a>
         </div>
       </div>
