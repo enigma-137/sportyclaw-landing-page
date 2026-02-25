@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { HowItWorks } from "@/components/how-it-works"
-import { WhySportyClaw } from "@/components/why-sportyclaw"
+import { WhySportyClaw } from "@/components/why-sporty-claw"
 import { TelegramSection } from "@/components/telegram-section"
 import { Testimonials } from "@/components/testimonials"
 import { Performance } from "@/components/performance"

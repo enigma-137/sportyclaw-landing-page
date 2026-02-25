@@ -72,7 +72,7 @@ export function WhySportyClaw() {
   }, [])
 
   return (
-    <section id="why-spoticlaw" ref={sectionRef} className="relative px-6 py-24 md:py-32">
+    <section id="why-sporty-claw" ref={sectionRef} className="relative px-6 py-24 md:py-32">
       <div className="mx-auto max-w-6xl">
         <h2 className="font-mono text-3xl font-bold uppercase tracking-tight text-foreground md:text-5xl">
           Why SportyClaw
