@@ -113,7 +113,7 @@ export function Performance() {
         </div>
 
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-          Numbers do not lie. Here is what SpotiClaw has delivered — tracked,
+          Numbers do not lie. Here is what SportyClaw has delivered — tracked,
           verified, and fully transparent.
         </p>
 
