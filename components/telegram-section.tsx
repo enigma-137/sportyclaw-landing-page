@@ -71,7 +71,7 @@ export function TelegramSection() {
             </div>
 
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              No bloated apps. No dashboards to learn. SpotiClaw lives where you
+              No bloated apps. No dashboards to learn. SportyClaw lives where you
               already are — Telegram. Fast, direct, and always on.
             </p>
 
