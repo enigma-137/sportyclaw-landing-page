@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 const navLinks = [
   { label: "How It Works", href: "#how-it-works" },
-  { label: "Why SpotiClaw", href: "#why-spoticlaw" },
+  { label: "Why SportyClaw", href: "#why-sporty-claw" },
   { label: "Performance", href: "#performance" },
 ]
 
@@ -28,7 +28,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="group font-mono text-xl font-bold tracking-tight text-foreground">
-          <span className="transition-colors duration-300 group-hover:text-accent">SPOTI</span>CLAW
+          <span className="transition-colors duration-300 group-hover:text-accent">SPORTY</span>CLAW
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
