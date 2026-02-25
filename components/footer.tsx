@@ -3,10 +3,10 @@ export function Footer() {
     <footer className="relative border-t border-border px-6 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 md:flex-row">
         <span className="font-mono text-sm font-bold tracking-tight text-foreground">
-          SPOTICLAW
+          SportyClaw
         </span>
         <p className="text-sm text-muted-foreground">
-          ©SpotiClaw. {new Date().getFullYear()} All rights reserved.
+          ©SportyClaw. {new Date().getFullYear()} All rights reserved.
         </p>
       </div>
     </footer>
